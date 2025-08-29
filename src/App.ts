@@ -18,3 +18,8 @@ async function fetchData() {
   console.log(characters[5]);
 }
 fetchData();
+let root = document.getElementById('root') as HTMLElement | null
+function noCharacterData (notElement: HTMLElement,massege:string): void {
+   rootElement.InnerHTML = massege;
+};
+noCharacterData(root, "There is no characters to display");
